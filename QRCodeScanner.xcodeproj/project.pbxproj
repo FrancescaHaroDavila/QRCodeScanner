@@ -13,6 +13,7 @@
 		8DA7108C223160BB0043DE84 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7108B223160BB0043DE84 /* QRCodeViewController.swift */; };
 		8DA7108E223160BF0043DE84 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7108D223160BF0043DE84 /* QRScannerController.swift */; };
 		8DA71090223160C80043DE84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA7108F223160C80043DE84 /* Main.storyboard */; };
+		8DA7109222319D770043DE84 /* QRGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7109122319D770043DE84 /* QRGeneratorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8DA7108B223160BB0043DE84 /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
 		8DA7108D223160BF0043DE84 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
 		8DA7108F223160C80043DE84 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8DA7109122319D770043DE84 /* QRGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGeneratorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				8DA7108D223160BF0043DE84 /* QRScannerController.swift */,
 				8DA7108B223160BB0043DE84 /* QRCodeViewController.swift */,
+				8DA7109122319D770043DE84 /* QRGeneratorViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				8DA7108C223160BB0043DE84 /* QRCodeViewController.swift in Sources */,
 				8DA710782231603C0043DE84 /* AppDelegate.swift in Sources */,
 				8DA7108E223160BF0043DE84 /* QRScannerController.swift in Sources */,
+				8DA7109222319D770043DE84 /* QRGeneratorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
