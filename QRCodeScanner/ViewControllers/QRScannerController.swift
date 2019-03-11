@@ -1,9 +1,9 @@
 //
-//  QRScannerController.swift
-//  QRCodeReader
+//  QRGeneratorViewController.swift
+//  QRCodeScanner
 //
-//  Created by Simon Ng on 13/10/2016.
-//  Copyright © 2016 AppCoda. All rights reserved.
+//  Created by Francesca Valeria Haro Dávila on 3/5/19.
+//  Copyright © 2019 Belatrix. All rights reserved.
 //
 
 import UIKit
@@ -90,9 +90,6 @@ class QRScannerController: UIViewController {
       view.bringSubviewToFront(qrCodeFrameView)
     }
   }
-  
-  
-  // MARK: - Helper methods
   
   func launchApp(decodedURL: String) {
     
